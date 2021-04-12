@@ -82,7 +82,7 @@ h4{
     background-color: #ffa500;
 }
 
-/* NAVBAR */
+/* SEZIONE NAVBAR */
 
 .navbar{
     margin: 1rem;
@@ -112,4 +112,40 @@ ul {
 
 li {
     padding: 0 1rem;
+}
+
+/* SEZIONE FONTS */
+.font_container {
+    width: 95%;
+    border: 2px solid white;
+    display: block;
+}
+
+.font{
+    margin: 1rem;
+    width: 45%;
+    height: auto;
+    display: inline-block;
+}
+
+.font_title{
+    padding-left: 1rem;
+    flex-grow: 1;
+    display: block;
+}
+
+.work-sans{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.impact{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.underline{
+   text-decoration: underline;
 }
