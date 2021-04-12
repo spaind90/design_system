@@ -14,7 +14,7 @@ html {
 body{
     width: 100%;
     height: 100%;
-    background-color: rgb(61, 58, 58);
+    background-color: #a9a9a9
 }
 
 header {
@@ -25,7 +25,7 @@ header {
 
 /* STILI TITOLI */
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, p{
     font-family: 'Work Sans', sans-serif;
 
 }
@@ -36,25 +36,56 @@ h1, h2, h3, h4, h5, h6{
     font-size: 3rem;
 }
 
-#h4_colors{
+h4{
     color: white;
     font-weight: 300;
+    font-size: 1.25rem;
+    padding-top: 1rem;
 }
 
 /* STILI DI CLASSI E ID*/
 .container {
     width: 95%;
-    height: 6rem;
     border: 2px solid white;
     display: flex;
     flex-wrap: wrap;
 }
 
 .main_container_flex{
-    padding: 3rem 0;
+    padding: 2rem 0 3rem 0;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
+.color{
+    margin: 1rem;
+    width: 10rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.yellowA0{
+    background-color: #ffd100;
+}
+
+.blackA0{
+    background-color: #333333;
+}
+
+.orangeA0{
+    background-color: #ffa500;
+}
+
+/* NAVBAR */
+
+.navbar{
+    margin: 1rem;
+    width: 100%;
+    height: 4rem;
+}
